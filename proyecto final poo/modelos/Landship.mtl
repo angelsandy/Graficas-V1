@@ -1,0 +1,46 @@
+# Blender MTL File: 'Import Scene.blend'
+# Material Count: 4
+
+newmtl m_Body
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd bodyk_shp_a_alb.png
+map_d Body_Dummy_Alb.png
+
+newmtl m_Body.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd Emblems\\emblem_amt.png
+map_d Emblems\\emblem_amt.png
+
+newmtl m_Body.003
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd Body_Dummy_Alb.png
+map_d Body_Dummy_Alb.png
+
+newmtl m_Body.006
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni -1.000000
+d 0.000000
+illum 1
+map_Kd Body_Dummy_Alb.png
+map_d Body_Dummy_Alb.png
