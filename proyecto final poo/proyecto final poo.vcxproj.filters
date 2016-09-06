@@ -21,9 +21,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Proyectos\Graficas V1 respaldo\proyecto final poo\glm.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
     <ClCompile Include="Modelo.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
@@ -32,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="Water.cpp">
       <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="glm.cpp">
+      <Filter>Archivos de código fuente</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

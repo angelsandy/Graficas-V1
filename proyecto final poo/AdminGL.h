@@ -245,11 +245,11 @@ public:
 				initparticulas(loop);
 			}
 			nave = new Modelo("modelos/F-35_Lightning_II.obj", "Texturas/textura.bmp");
-			enemigo1 = new Modelo("modelos/chainchompcap.obj", "Texturas/t0156_0.bmp");
+			//enemigo1 = new Modelo("modelos/chainchompcap.obj", "Texturas/t0156_0.bmp");
 			pastel = new Modelo("modelos/bowserkite.obj", "Texturas/wing_kpa_alb.bmp");
-			banzaibill = new Modelo("modelos/banzaibill.obj", "Texturas/model2.bmp");
+			//banzaibill = new Modelo("modelos/banzaibill.obj", "Texturas/model2.bmp");
 			koffing = new Modelo("modelos/koffing.obj", "Texturas/model0.bmp");
-			bomb = new Modelo("modelos/bomb.obj", "Texturas/enemy_xx01_BombHei_dif.bmp");
+			//bomb = new Modelo("modelos/bomb.obj", "Texturas/enemy_xx01_BombHei_dif.bmp");
 			bombatras = new Modelo("modelos/parteatras.obj","Texturas/enemy_xx01_BombHei_dif.bmp");
 			demo1 = LoadTexture("Texuras/Wall.bmp");
 			cesped = new Modelo("modelos/bushboard.obj", "Texturas/bushboard_alb.bmp");
@@ -260,7 +260,7 @@ public:
 
 			for (int i = 0; i <55; i++)
 			{
-				coin[i] = new Modelo("modelos/coin.obj", "Texturas/coin.bmp");
+				coin[i] = new Modelo("modelos/Meat.obj", "Texturas/chunkMeat.bmp");
 			}
 			textures[0] = LoadTexture("Texturas/miramar_up.bmp");
 			textures[1] = LoadTexture("Texturas/miramar_lf.bmp");
@@ -272,17 +272,17 @@ public:
 			fogTouse = new fog(0, false, 0.0, 0);
 			water = new Modelo("modelos/agua.obj", "Texturas/ef_waterline_alb.bmp");
 			skyguy = new Modelo("modelos/shyguykart.obj", "Texturas/model171.bmp");
-			hud[0] = new HUD(L"Texturas/Item_Box.png", 5, 5, 0, altura + 1, -60);
-			hud[1] = new HUD(L"Texturas/Item_Box.png", 5, 5, 90, altura + 1, 16);
-			hud[2] = new HUD(L"Texturas/Item_Box.png", 5, 5, 80, altura + 1, -56);
-			hud[3] = new HUD(L"Texturas/Item_Box.png", 5, 5, 30, altura + 1, 30);
-			hud[4] = new HUD(L"Texturas/Item_Box.png", 5, 5, 100, altura + 1, 100);
-			hud[5] = new HUD(L"Texturas/Item_Box.png", 5, 5, 0, altura + 1, 0);
-			hud[6] = new HUD(L"Texturas/Item_Box.png", 5, 5, 40, altura + 1, -80);
-			hud[7] = new HUD(L"Texturas/Item_Box.png", 5, 5, 80, altura + 1, -50);
-			hud[8] = new HUD(L"Texturas/Item_Box.png", 5, 5, -20, altura + 1, 20);
-			hud[9] = new HUD(L"Texturas/Item_Box.png", 5, 5, 120, altura + 1, 50);
-			hud[10] = new HUD(L"Texturas/Item_Box.png", 5, 5, 100, altura + 1, -66);
+			hud[0] = new HUD(L"Texturas/bigtree.png", 12, 25, 0, altura + 1, -60);
+			hud[1] = new HUD(L"Texturas/bigtree.png", 12, 25, 90, altura + 1, 16);
+			hud[2] = new HUD(L"Texturas/bigtree.png", 12, 25, 80, altura + 1, -56);
+			hud[3] = new HUD(L"Texturas/bigtree.png", 12, 25, 30, altura + 1, 30);
+			hud[4] = new HUD(L"Texturas/bigtree.png", 12, 25, 100, altura + 1, 100);
+			hud[5] = new HUD(L"Texturas/bigtree.png", 12, 25, 0, altura + 1, 0);
+			hud[6] = new HUD(L"Texturas/bigtree.png", 12, 25, 40, altura + 1, -80);
+			hud[7] = new HUD(L"Texturas/bigtree.png", 12, 25, 80, altura + 1, -50);
+			hud[8] = new HUD(L"Texturas/bigtree.png", 12, 25, -20, altura + 1, 20);
+			hud[9] = new HUD(L"Texturas/bigtree.png", 12, 25, 120, altura + 1, 50);
+			hud[10] = new HUD(L"Texturas/bigtree.png", 12, 25, 100, altura + 1, -66);
 			movmx = 7;
 			movmy =12;
 			movmz = 3;
@@ -515,18 +515,18 @@ public:
 			}
 			drawcesped();
 			drawcake();
-			enemigo();
-			drawskyguy();
-			drawenemigo4();
+			//enemigo();
+			//drawskyguy();
+			//drawenemigo4();
 			drawcesped2();
-			drawenemigo3();
+	/*		drawenemigo3();
 			drawenemigo5();
-			drawenemigo6();
+			drawenemigo6();*/
 			aguita->Update();
-			drawbomb();
-			drawpatitas();
-			drawbombatras();
-			drawpatitader();
+			//drawbomb();
+			//drawpatitas();
+			//drawbombatras();
+			//drawpatitader();
 			if (moneda(posicion, 40, 2, 5, 1) && ja == 0){
 				ja[0] = 1;
 
