@@ -164,6 +164,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,  LPSTR lpCmdLin
 				{
 					OGLobj->CamaraRotaX(-1);
 				}
+
+				if (GetKeyState('Z') & 8000){
+					OGLobj->Dispara();
+				}
 				OGLobj->Draw(gHDC);    
 				renderiza = false;
 				if (GetKeyState('T') & 8000 && col){

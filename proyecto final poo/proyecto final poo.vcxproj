@@ -80,6 +80,7 @@
   <ItemGroup>
     <ClCompile Include="BMPLoader.cpp" />
     <ClCompile Include="camara.cpp" />
+    <ClCompile Include="Dome.cpp" />
     <ClCompile Include="glm.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Modelo.cpp" />
@@ -91,11 +92,13 @@
     <ClInclude Include="camara.h" />
     <ClInclude Include="D:\Proyectos\Graficas V1 respaldo\proyecto final poo\glm.h" />
     <ClInclude Include="D:\Proyectos\Graficas V1\proyecto final poo\Imagenes.h" />
+    <ClInclude Include="Dome.h" />
     <ClInclude Include="fog.h" />
     <ClInclude Include="HUD.h" />
     <ClInclude Include="Modelo.h" />
     <ClInclude Include="Particulas.h" />
     <ClInclude Include="primitive.h" />
+    <ClInclude Include="Projectile.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="ShaderDemo.h" />
     <ClInclude Include="Skybox.h" />

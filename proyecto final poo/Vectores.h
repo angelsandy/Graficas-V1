@@ -120,10 +120,15 @@ public:
 		float temp[16]; // hace la multiplicacion de matriz 4 x 4
 		for (int i = 0; i < 16; i += 4)
 		{
-			temp[i] = matriz1[i] * matriz2[0] + matriz1[i + 1] * matriz2[4] + matriz1[i + 2] * matriz2[8] + matriz1[i + 3] * matriz2[12];
+			/*temp[i] = matriz1[i] * matriz2[0] + matriz1[i + 1] * matriz2[4] + matriz1[i + 2] * matriz2[8] + matriz1[i + 3] * matriz2[12];
 			temp[i + 1] = matriz1[i] * matriz2[1] + matriz1[i + 1] * matriz2[5] + matriz1[i + 2] * matriz2[9] + matriz1[i + 3] * matriz2[13];
 			temp[i + 2] = matriz1[i] * matriz2[2] + matriz1[i + 1] * matriz2[6] + matriz1[i + 2] * matriz2[10] + matriz1[i + 3] * matriz2[14];
-			temp[i + 3] = matriz1[i] * matriz2[3] + matriz1[i + 1] * matriz2[7] + matriz1[i + 2] * matriz2[11] + matriz1[i + 3] * matriz2[15];
+			temp[i + 3] = matriz1[i] * matriz2[3] + matriz1[i + 1] * matriz2[7] + matriz1[i + 2] * matriz2[11] + matriz1[i + 3] * matriz2[15];*/
+
+			temp[i] = (matriz1[i] * matriz2[0]) + (matriz1[i + 1] * matriz2[4]) + (matriz1[i + 2] * matriz2[8]) + (matriz1[i + 3] * matriz2[12]);
+			temp[i+1] = (matriz1[i] * matriz2[1]) + (matriz1[i + 1] * matriz2[5]) + (matriz1[i + 2] * matriz2[9]) + (matriz1[i + 3] * matriz2[13]);
+			temp[i+2] = (matriz1[i] * matriz2[2]) + (matriz1[i + 1] * matriz2[6]) + (matriz1[i + 2] * matriz2[10]) + (matriz1[i + 3] * matriz2[14]);
+			temp[i+3] = (matriz1[i] * matriz2[3]) + (matriz1[i + 1] * matriz2[7]) + (matriz1[i + 2] * matriz2[11]) + (matriz1[i + 3] * matriz2[15]);
 		}
 		for (int i = 0; i < 16; i ++)
 		{
